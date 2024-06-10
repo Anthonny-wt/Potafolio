@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'>
+  <link rel="stylesheet" href="/estilos/style.css">
+
+</head>
+
+<body>
+
+  <body>
+    <section>
+      <div class="icon-container">
+        <div class="icon-box about" data-modal="about">
+          <i class="fa-regular fa-address-card"></i>
+        </div>
+        <div class="icon-box projects" data-modal="projects">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="icon-box testimonial" data-modal="testimonial">
+          <i class="fa-solid fa-users-rectangle"></i>
+        </div>
+        <div class="icon-box contact" data-modal="contact">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup" id="about">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body about-container">
+          <div class="img-frame">
+            <img src="imagenes/perfil.jpg" alt="ImagenPerfil" />
+          </div>
+          <div class="hero-content">
+            <h1>Anthonny Huamán</h1>
+            <p>
+              Soy un futuro profesional en ciberseguridad, estudiando Ingeniería de Sistemas en la Universidad
+              Continental. Estoy dedicado a proteger sistemas y redes informáticas y creo en la colaboración para
+              ofrecer soluciones integrales y efectivas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="projects">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popup-body">
+          <div class="skill-list">
+            <h1>Skills</h1>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Python</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+
+          <div class="project-container">
+            <h1>Projects</h1>
+            <div class="all-projects">
+              <div class="project-box">
+                <img
+                  src="https://github.com/Anthonny-wt/PodcastContiV1/assets/121044960/d7f3f993-ff33-4e86-a957-c52e87a4710c"
+                  alt="PodcastV1" />
+                <div class="overlay">
+                  <h3>PodcastContiV1</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="https://github.com/Anthonny-wt/Parcial/assets/121044960/6a5c5c81-604f-419e-b468-7cf9910a9d5a"
+                  alt="" />
+                <div class="overlay">
+                  <h3>Alquiler de cuartos</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d6e74bee-a0f6-416e-98cc-b0985caf507f"
+                  alt="" />
+                <div class="overlay">
+                  <h3>Travel Landing Page</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-box">
+                <img
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/28946a23-30af-4b36-b30b-e4a3e696aaf6"
+                  alt="" />
+                <div class="overlay">
+                  <h3>Plant Search App</h3>
+                  <button class="more-btn">
+                    <span>Learn More</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="testimonial">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body testimonial-container">
+          <h1>Certificados</h1>
+          <div class="slider-container">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="user-info">
+                    <h2>Big Data</h2>
+                    <img
+                      src="/Porfolio/certificados/BigData.png"
+                      alt="BigDataCertificado" />
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="user-info">
+                    <h2>Cisco Netacad</h2>
+                    <img
+                      src="/Porfolio/certificados/cisco2.png"
+                      alt="Cisco1" />
+                  </div> 
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="user-info">
+                    <h2>Cisco Netacad</h2>
+                    <img
+                      src="/Porfolio/certificados/cisco2_1.png"
+                      alt="Cisco1" />
+                  </div> 
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="user-info">
+                    <h2>Internet de las cosas</h2>
+                    <img
+                      src="/Porfolio/certificados/InternetCosas.png"
+                      alt="Cisco1" />
+                  </div> 
+                </div>
+                <div class="swiper-slide swiper-no-swiping">
+                  <div class="user-info">       
+                    <h2>Videojuegos</h2>
+                    <img
+                      src="/Porfolio/certificados/videojuegos.png"
+                      alt="" />
+                  </div>
+                
+                </div>
+              </div>
+              <ul class="control" id="custom-control">
+                <li class="prev">
+                  <ion-icon class="arrow" name="caret-back-outline"></ion-icon>
+                </li>
+                <li class="next">
+                  <ion-icon class="arrow" name="caret-forward-outline"></ion-icon>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="contact">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body contact-container">
+          <h1>Contact</h1>
+          <p>Hola, aquí puedes contactarme de muchas maneras</p>
+          <div class="social-links">
+              <a href="https://wa.me/1234567890" target="_blank">
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+              <a href="https://www.linkedin.com/in/ruben-anthony-dominguez-huaman-b53a3a201" target="_blank">
+                  <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/Anthonny-wt" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+              </a>
+          </div>
+      </div>
+      </div>
+    </div>
+  </body>
+
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script>
+  <script src="/Porfolio/code/script.js"></script>
+
+</body>
+
+</html>
